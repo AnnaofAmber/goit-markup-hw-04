@@ -342,7 +342,8 @@ body {
   gap: 24px;
   padding-left: 0;
 }
-
+.social-item {
+}
 .social-link {
   display: flex;
   justify-content: center;
