@@ -87,15 +87,6 @@ body {
   font-weight: 500;
   padding: 24px 0;
 }
-.header-nav:hover::after,
-.header-nav:focus::after {
-  content: '';
-  display: block;
-  height: 4px;
-  background: #404bbf;
-  border-radius: 2px;
-  margin-top: 20px;
-}
 
 .header-nav:hover,
 .header-nav:focus {
@@ -225,8 +216,8 @@ body {
   align-items: center;
   background: var(--color-cloud);
   border-radius: 4px;
-  padding: 24px 100px;
   margin-bottom: 8px;
+  height: 112px;
 }
 .list-adv {
   display: flex;
@@ -470,7 +461,7 @@ body {
   |============================
 */
 .section-prtf {
-  padding: 96px 120px;
+  padding: 96px 0 120px;
 }
 /**
   |============================
@@ -481,8 +472,7 @@ body {
   display: flex;
   margin-top: auto;
   margin-bottom: 72px;
-  padding-left: auto;
-  padding-top: auto;
+  padding-left: 0;
   justify-content: center;
   gap: 24px;
 }
@@ -522,12 +512,8 @@ body {
   row-gap: 48px;
   flex-basis: calc((100% - 2 * 24px) / 3);
   padding-left: 0;
-  padding-bottom: 120px;
   margin-top: auto;
   margin-bottom: auto;
-}
-.card-portfolio {
-  padding: 24px 0;
 }
 .link-portfolio {
   display: block;
